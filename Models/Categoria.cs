@@ -1,9 +1,11 @@
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 
-namespace ProdutosApi;
+namespace TrabalhoApi;
 
 public class Categoria{
+
+    public int Id {get; set;}
 
     [Required(ErrorMessage = "O nome é obrigatório.")]
         [StringLength(80 , MinimumLength = 3,
@@ -11,6 +13,6 @@ public class Categoria{
     public string Nome {get; set;} = string.Empty;
 
    [StringLength(200,
-    ErrorMessage ="Descricao no maximo 200 caracteres.")]
+    ErrorMessage ="Descrição deve ter no máximo 200 caracteres.")]
     public string? Descricao{get ; set;} 
 }

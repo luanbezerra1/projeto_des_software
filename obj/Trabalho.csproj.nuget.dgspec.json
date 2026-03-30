@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luanbezerra/Desktop/avaliacao/Trabalho/Trabalho.csproj": {}
+    "C:\\Users\\Lucas\\Documents\\faculdade\\projeto_des_software\\Trabalho.csproj": {}
   },
   "projects": {
-    "/Users/luanbezerra/Desktop/avaliacao/Trabalho/Trabalho.csproj": {
+    "C:\\Users\\Lucas\\Documents\\faculdade\\projeto_des_software\\Trabalho.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luanbezerra/Desktop/avaliacao/Trabalho/Trabalho.csproj",
+        "projectUniqueName": "C:\\Users\\Lucas\\Documents\\faculdade\\projeto_des_software\\Trabalho.csproj",
         "projectName": "Trabalho",
-        "projectPath": "/Users/luanbezerra/Desktop/avaliacao/Trabalho/Trabalho.csproj",
-        "packagesPath": "/Users/luanbezerra/.nuget/packages/",
-        "outputPath": "/Users/luanbezerra/Desktop/avaliacao/Trabalho/obj/",
+        "projectPath": "C:\\Users\\Lucas\\Documents\\faculdade\\projeto_des_software\\Trabalho.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucas\\Documents\\faculdade\\projeto_des_software\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/luanbezerra/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4,7 +4,7 @@ namespace TrabalhoApi;
 
 public class AppDbContext : DbContext
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) {}
+    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
     public DbSet<Produto> Produtos => Set<Produto>();
     public DbSet<Categoria> Categorias => Set<Categoria>();
@@ -13,7 +13,7 @@ public class AppDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         // PRODUTO
-       var produto = modelBuilder.Entity<Produto>();
+        var produto = modelBuilder.Entity<Produto>();
 
         produto.Property(p => p.Nome)
             .HasMaxLength(120)
@@ -32,7 +32,6 @@ public class AppDbContext : DbContext
             t.HasCheckConstraint("CK_Produto_Estoque", "Estoque >= 0");
         });
 
-
         // CATEGORIA
         var categoria = modelBuilder.Entity<Categoria>();
 
@@ -41,11 +40,10 @@ public class AppDbContext : DbContext
             .IsRequired();
 
         categoria.Property(c => c.Descricao)
-            .HasMaxLength(200); 
-
+            .HasMaxLength(200);
 
         // CLIENTE
-       var cliente = modelBuilder.Entity<Cliente>();
+        var cliente = modelBuilder.Entity<Cliente>();
 
         cliente.Property(c => c.Nome)
             .HasMaxLength(100)
@@ -54,9 +52,12 @@ public class AppDbContext : DbContext
         cliente.Property(c => c.Email)
             .IsRequired();
 
-        cliente.Property(c => c.DataNascimento)
-            .HasColumnType("date")
+        cliente.Property(c => c.Idade)
             .IsRequired();
+
+        cliente.ToTable(t =>
+        {
+            t.HasCheckConstraint("CK_Cliente_Idade", "Idade >= 18");
+        });
     }
 }
-

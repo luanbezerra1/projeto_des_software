@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucas\\Documents\\faculdade\\projeto_des_software\\Trabalho.csproj": {}
+    "/home/giovanes/Documentos/Faculdade/Sistemas de Informação/Desenvolvimento Web Avançado/projeto_des_software/Trabalho.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucas\\Documents\\faculdade\\projeto_des_software\\Trabalho.csproj": {
+    "/home/giovanes/Documentos/Faculdade/Sistemas de Informação/Desenvolvimento Web Avançado/projeto_des_software/Trabalho.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucas\\Documents\\faculdade\\projeto_des_software\\Trabalho.csproj",
+        "projectUniqueName": "/home/giovanes/Documentos/Faculdade/Sistemas de Informação/Desenvolvimento Web Avançado/projeto_des_software/Trabalho.csproj",
         "projectName": "Trabalho",
-        "projectPath": "C:\\Users\\Lucas\\Documents\\faculdade\\projeto_des_software\\Trabalho.csproj",
-        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucas\\Documents\\faculdade\\projeto_des_software\\obj\\",
+        "projectPath": "/home/giovanes/Documentos/Faculdade/Sistemas de Informação/Desenvolvimento Web Avançado/projeto_des_software/Trabalho.csproj",
+        "packagesPath": "/home/giovanes/.nuget/packages/",
+        "outputPath": "/home/giovanes/Documentos/Faculdade/Sistemas de Informação/Desenvolvimento Web Avançado/projeto_des_software/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/giovanes/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -85,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.125/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

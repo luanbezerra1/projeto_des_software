@@ -11,7 +11,7 @@ using TrabalhoApi;
 namespace Trabalho.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260331003507_ajustesvalidacoes")]
+    [Migration("20260331005927_ajustesvalidacoes")]
     partial class ajustesvalidacoes
     {
         /// <inheritdoc />

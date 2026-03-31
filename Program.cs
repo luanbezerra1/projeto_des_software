@@ -1,3 +1,5 @@
+//NOME DOS INTEGRANTES: LUCAS SECO ALVES, LUAN GUILHERME DA SILVA BEZERRA
+
 using Microsoft.EntityFrameworkCore;
 using TrabalhoApi;
 
